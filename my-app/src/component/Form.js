@@ -63,7 +63,7 @@ const Form = (props) => {
           </input>
         </div>
         {confirmPassword !== password && confirmPassword.length > 0 ? (
-        <p style={{ color: "Red" }} >Passwords must match</p>
+        <p style={{ color: "Red" }} >Passwords must match.</p>
         ) : null}
       </form>
 
